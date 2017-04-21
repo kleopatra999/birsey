@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Views\Home\About.cshtml" />
+    <EmbeddedResource Include="Views\Home\Contact.cshtml" />
+    <EmbeddedResource Include="Views\Home\Index.cshtml" />
+    <EmbeddedResource Include="Views\Shared\Error.cshtml" />
+    <EmbeddedResource Include="Views\Shared\_Layout.cshtml" />
+    <EmbeddedResource Include="Views\Shared\_ValidationScriptsPartial.cshtml" />
+    <EmbeddedResource Include="Views\_ViewImports.cshtml" />
+    <EmbeddedResource Include="Views\_ViewStart.cshtml" />
+  </ItemGroup>
+
+</Project>
